@@ -350,10 +350,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 715335493808472756, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 715335493808472757, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -398,6 +394,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 761919246377031657, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
+      propertyPath: gm
+      value: 
+      objectReference: {fileID: 623509241}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
 --- !u!1 &618886244
@@ -1086,10 +1086,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 715335493808472756, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 715335493808472757, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1134,6 +1130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 761919246377031657, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
+      propertyPath: gm
+      value: 
+      objectReference: {fileID: 623509241}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf6b7f113a161340843c0d0fd189ae6, type: 3}
 --- !u!1001 &913310590
@@ -1586,7 +1586,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 900, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
